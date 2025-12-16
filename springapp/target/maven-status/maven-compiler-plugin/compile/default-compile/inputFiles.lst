@@ -4,3 +4,8 @@
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/model/PurchaseOrder.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/model/PurchaseOrderItem.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/model/Supplier.java
+/home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/repository/CustomerReturnRepo.java
+/home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/repository/ProductRepo.java
+/home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/repository/PurchaseOrderItemRepo.java
+/home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/repository/PurchaseOrderRepo.java
+/home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/repository/SupplierRepo.java

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.examly.springapp.SpringappApplicationTests" time="4.26" tests="80" errors="0" skipped="0" failures="54">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.examly.springapp.SpringappApplicationTests" time="4.197" tests="80" errors="0" skipped="0" failures="33">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/coder/project/workspace/springapp/target/surefire/surefirebooter-20251216090247608_3.jar /home/coder/project/workspace/springapp/target/surefire 2025-12-16T09-02-47_552-jvmRun1 surefire-20251216090247608_1tmp surefire_0-20251216090247608_2tmp"/>
+    <property name="sun.java.command" value="/home/coder/project/workspace/springapp/target/surefire/surefirebooter-20251218041203242_3.jar /home/coder/project/workspace/springapp/target/surefire 2025-12-18T04-12-02_451-jvmRun1 surefire-20251218041203242_1tmp surefire_0-20251218041203242_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/coder/project/workspace/springapp/target/test-classes:/home/coder/project/workspace/springapp/target/classes:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/3.4.12/spring-boot-starter-data-jpa-3.4.12.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter/3.4.12/spring-boot-starter-3.4.12.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.4.12/spring-boot-starter-logging-3.4.12.jar:/home/coder/.m2/repository/ch/qos/logback/logback-classic/1.5.21/logback-classic-1.5.21.jar:/home/coder/.m2/repository/ch/qos/logback/logback-core/1.5.21/logback-core-1.5.21.jar:/home/coder/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.24.3/log4j-to-slf4j-2.24.3.jar:/home/coder/.m2/repository/org/apache/logging/log4j/log4j-api/2.24.3/log4j-api-2.24.3.jar:/home/coder/.m2/repository/org/slf4j/jul-to-slf4j/2.0.17/jul-to-slf4j-2.0.17.jar:/home/coder/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/home/coder/.m2/repository/org/yaml/snakeyaml/2.3/snakeyaml-2.3.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/3.4.12/spring-boot-starter-jdbc-3.4.12.jar:/home/coder/.m2/repository/com/zaxxer/HikariCP/5.1.0/HikariCP-5.1.0.jar:/home/coder/.m2/repository/org/springframework/spring-jdbc/6.2.14/spring-jdbc-6.2.14.jar:/home/coder/.m2/repository/org/hibernate/orm/hibernate-core/6.6.36.Final/hibernate-core-6.6.36.Final.jar:/home/coder/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/home/coder/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar:/home/coder/.m2/repository/org/jboss/logging/jboss-logging/3.6.1.Final/jboss-logging-3.6.1.Final.jar:/home/coder/.m2/repository/org/hibernate/common/hibernate-commons-annotations/7.0.3.Final/hibernate-commons-annotations-7.0.3.Final.jar:/home/coder/.m2/repository/io/smallrye/jandex/3.2.0/jandex-3.2.0.jar:/home/coder/.m2/repository/com/fasterxml/classmate/1.7.1/classmate-1.7.1.jar:/home/coder/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar:/home/coder/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.6/jaxb-runtime-4.0.6.jar:/home/coder/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.6/jaxb-core-4.0.6.jar:/home/coder/.m2/repository/org/eclipse/angus/angus-activation/2.0.3/angus-activation-2.0.3.jar:/home/coder/.m2/repository/org/glassfish/jaxb/txw2/4.0.6/txw2-4.0.6.jar:/home/coder/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2.jar:/home/coder/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/home/coder/.m2/repository/org/antlr/antlr4-runtime/4.13.0/antlr4-runtime-4.13.0.jar:/home/coder/.m2/repository/org/springframework/data/spring-data-jpa/3.4.12/spring-data-jpa-3.4.12.jar:/home/coder/.m2/repository/org/springframework/data/spring-data-commons/3.4.12/spring-data-commons-3.4.12.jar:/home/coder/.m2/repository/org/springframework/spring-orm/6.2.14/spring-orm-6.2.14.jar:/home/coder/.m2/repository/org/springframework/spring-context/6.2.14/spring-context-6.2.14.jar:/home/coder/.m2/repository/org/springframework/spring-aop/6.2.14/spring-aop-6.2.14.jar:/home/coder/.m2/repository/org/springframework/spring-tx/6.2.14/spring-tx-6.2.14.jar:/home/coder/.m2/repository/org/springframework/spring-beans/6.2.14/spring-beans-6.2.14.jar:/home/coder/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/home/coder/.m2/repository/org/springframework/spring-aspects/6.2.14/spring-aspects-6.2.14.jar:/home/coder/.m2/repository/org/aspectj/aspectjweaver/1.9.25/aspectjweaver-1.9.25.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.4.12/spring-boot-starter-web-3.4.12.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.4.12/spring-boot-starter-json-3.4.12.jar:/home/coder/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.18.5/jackson-databind-2.18.5.jar:/home/coder/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.18.5/jackson-annotations-2.18.5.jar:/home/coder/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.18.5/jackson-core-2.18.5.jar:/home/coder/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.18.5/jackson-datatype-jdk8-2.18.5.jar:/home/coder/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.18.5/jackson-datatype-jsr310-2.18.5.jar:/home/coder/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.18.5/jackson-module-parameter-names-2.18.5.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.4.12/spring-boot-starter-tomcat-3.4.12.jar:/home/coder/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.49/tomcat-embed-core-10.1.49.jar:/home/coder/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.49/tomcat-embed-el-10.1.49.jar:/home/coder/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.49/tomcat-embed-websocket-10.1.49.jar:/home/coder/.m2/repository/org/springframework/spring-web/6.2.14/spring-web-6.2.14.jar:/home/coder/.m2/repository/io/micrometer/micrometer-observation/1.14.13/micrometer-observation-1.14.13.jar:/home/coder/.m2/repository/io/micrometer/micrometer-commons/1.14.13/micrometer-commons-1.14.13.jar:/home/coder/.m2/repository/org/springframework/spring-webmvc/6.2.14/spring-webmvc-6.2.14.jar:/home/coder/.m2/repository/org/springframework/spring-expression/6.2.14/spring-expression-6.2.14.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-devtools/3.4.12/spring-boot-devtools-3.4.12.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot/3.4.12/spring-boot-3.4.12.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.4.12/spring-boot-autoconfigure-3.4.12.jar:/home/coder/.m2/repository/com/mysql/mysql-connector-j/9.5.0/mysql-connector-j-9.5.0.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.4.12/spring-boot-starter-test-3.4.12.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-test/3.4.12/spring-boot-test-3.4.12.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.4.12/spring-boot-test-autoconfigure-3.4.12.jar:/home/coder/.m2/repository/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0.jar:/home/coder/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.4/jakarta.xml.bind-api-4.0.4.jar:/home/coder/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.4/jakarta.activation-api-2.1.4.jar:/home/coder/.m2/repository/net/minidev/json-smart/2.5.2/json-smart-2.5.2.jar:/home/coder/.m2/repository/net/minidev/accessors-smart/2.5.2/accessors-smart-2.5.2.jar:/home/coder/.m2/repository/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar:/home/coder/.m2/repository/org/assertj/assertj-core/3.26.3/assertj-core-3.26.3.jar:/home/coder/.m2/repository/org/awaitility/awaitility/4.2.2/awaitility-4.2.2.jar:/home/coder/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter/5.11.4/junit-jupiter-5.11.4.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.11.4/junit-jupiter-api-5.11.4.jar:/home/coder/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/coder/.m2/repository/org/junit/platform/junit-platform-commons/1.11.4/junit-platform-commons-1.11.4.jar:/home/coder/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.11.4/junit-jupiter-params-5.11.4.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.11.4/junit-jupiter-engine-5.11.4.jar:/home/coder/.m2/repository/org/junit/platform/junit-platform-engine/1.11.4/junit-platform-engine-1.11.4.jar:/home/coder/.m2/repository/org/mockito/mockito-core/5.14.2/mockito-core-5.14.2.jar:/home/coder/.m2/repository/net/bytebuddy/byte-buddy-agent/1.15.11/byte-buddy-agent-1.15.11.jar:/home/coder/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/home/coder/.m2/repository/org/mockito/mockito-junit-jupiter/5.14.2/mockito-junit-jupiter-5.14.2.jar:/home/coder/.m2/repository/org/skyscreamer/jsonassert/1.5.3/jsonassert-1.5.3.jar:/home/coder/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/coder/.m2/repository/org/springframework/spring-core/6.2.14/spring-core-6.2.14.jar:/home/coder/.m2/repository/org/springframework/spring-jcl/6.2.14/spring-jcl-6.2.14.jar:/home/coder/.m2/repository/org/springframework/spring-test/6.2.14/spring-test-6.2.14.jar:/home/coder/.m2/repository/org/xmlunit/xmlunit-core/2.10.4/xmlunit-core-2.10.4.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="FILE_LOG_CHARSET" value="UTF-8"/>
     <property name="java.awt.headless" value="true"/>
-    <property name="surefire.real.class.path" value="/home/coder/project/workspace/springapp/target/surefire/surefirebooter-20251216090247608_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/coder/project/workspace/springapp/target/surefire/surefirebooter-20251218041203242_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.17+10-Debian-1deb11u1"/>
     <property name="user.name" value="coder"/>
@@ -48,7 +48,7 @@
     <property name="user.dir" value="/home/coder/project/workspace/springapp"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PID" value="4222"/>
+    <property name="PID" value="1206"/>
     <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
     <property name="native.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
@@ -59,10 +59,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Day3_test_Controller_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.341">
-    <system-out><![CDATA[09:02:48.197 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.examly.springapp.SpringappApplicationTests]: SpringappApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-09:02:48.290 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.examly.springapp.SpringappApplication for test class com.examly.springapp.SpringappApplicationTests
-09:02:48.413 [main] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
+  <testcase name="Day3_test_Controller_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.369">
+    <system-out><![CDATA[04:12:03.791 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.examly.springapp.SpringappApplicationTests]: SpringappApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+04:12:03.882 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.examly.springapp.SpringappApplication for test class com.examly.springapp.SpringappApplicationTests
+04:12:03.997 [main] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -73,20 +73,20 @@
 
  :: Spring Boot ::               (v3.4.12)
 
-2025-12-16T09:02:48.613Z  INFO 4222 --- [           main] c.e.springapp.SpringappApplicationTests  : Starting SpringappApplicationTests using Java 17.0.17 with PID 4222 (started by coder in /home/coder/project/workspace/springapp)
-2025-12-16T09:02:48.614Z  INFO 4222 --- [           main] c.e.springapp.SpringappApplicationTests  : No active profile set, falling back to 1 default profile: "default"
-2025-12-16T09:02:49.137Z  INFO 4222 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-16T09:02:49.156Z  INFO 4222 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
-2025-12-16T09:02:49.396Z  INFO 4222 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-16T09:02:49.427Z  INFO 4222 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.36.Final
-2025-12-16T09:02:49.452Z  INFO 4222 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-12-16T09:02:49.644Z  INFO 4222 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-16T09:02:49.663Z  INFO 4222 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-12-16T09:02:49.786Z  INFO 4222 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@11148dc2
-2025-12-16T09:02:49.787Z  INFO 4222 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-12-16T09:02:49.803Z  WARN 4222 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-12-16T09:02:49.804Z  WARN 4222 --- [           main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
-2025-12-16T09:02:49.819Z  INFO 4222 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-12-18T04:12:04.203Z  INFO 1206 --- [           main] c.e.springapp.SpringappApplicationTests  : Starting SpringappApplicationTests using Java 17.0.17 with PID 1206 (started by coder in /home/coder/project/workspace/springapp)
+2025-12-18T04:12:04.205Z  INFO 1206 --- [           main] c.e.springapp.SpringappApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2025-12-18T04:12:04.756Z  INFO 1206 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-18T04:12:04.776Z  INFO 1206 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2025-12-18T04:12:05.021Z  INFO 1206 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-18T04:12:05.056Z  INFO 1206 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.36.Final
+2025-12-18T04:12:05.079Z  INFO 1206 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-12-18T04:12:05.263Z  INFO 1206 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-18T04:12:05.284Z  INFO 1206 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-18T04:12:05.486Z  INFO 1206 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1cc41b77
+2025-12-18T04:12:05.487Z  INFO 1206 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-18T04:12:05.505Z  WARN 1206 --- [           main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-18T04:12:05.506Z  WARN 1206 --- [           main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-12-18T04:12:05.521Z  INFO 1206 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0
@@ -94,7 +94,7 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-12-16T09:02:50.518Z  INFO 4222 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-18T04:12:06.120Z  INFO 1206 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
 Hibernate: alter table customer_return drop foreign key FKk60hc709w3pjf2nv94abuyerv
 Hibernate: alter table purchase_order drop foreign key FKexpbvwwqjgow03uejxl3x8qkc
 Hibernate: alter table purchase_order_item drop foreign key FK862c1bxmhyqs27x7ae3phph5e
@@ -113,211 +113,56 @@ Hibernate: alter table customer_return add constraint FKk60hc709w3pjf2nv94abuyer
 Hibernate: alter table purchase_order add constraint FKexpbvwwqjgow03uejxl3x8qkc foreign key (supplier_supplier_id) references supplier (supplier_id)
 Hibernate: alter table purchase_order_item add constraint FK862c1bxmhyqs27x7ae3phph5e foreign key (product_product_id) references product (product_id)
 Hibernate: alter table purchase_order_item add constraint FKs3uske0upa0jymmqr7dwgbrsx foreign key (purchase_order_purchase_order_id) references purchase_order (purchase_order_id)
-2025-12-16T09:02:50.895Z  INFO 4222 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-16T09:02:51.100Z  WARN 4222 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-16T09:02:51.454Z  INFO 4222 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-12-16T09:02:51.454Z  INFO 4222 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-12-16T09:02:51.457Z  INFO 4222 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2025-12-16T09:02:51.488Z  INFO 4222 --- [           main] c.e.springapp.SpringappApplicationTests  : Started SpringappApplicationTests in 3.084 seconds (process running for 3.832)
+2025-12-18T04:12:06.456Z  INFO 1206 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-18T04:12:06.655Z  WARN 1206 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-18T04:12:06.960Z  INFO 1206 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-12-18T04:12:06.961Z  INFO 1206 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-12-18T04:12:06.963Z  INFO 1206 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2025-12-18T04:12:06.983Z  INFO 1206 --- [           main] c.e.springapp.SpringappApplicationTests  : Started SpringappApplicationTests in 2.995 seconds (process running for 3.706)
 ]]></system-out>
   </testcase>
   <testcase name="Day3_test_Model_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.004"/>
-  <testcase name="Day3_test_Service_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
-  <testcase name="Day3_test_Repository_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
-  <testcase name="Day4_test_ProductModel_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day3_test_Service_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.004"/>
+  <testcase name="Day3_test_Repository_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.004"/>
+  <testcase name="Day4_test_ProductModel_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.004"/>
   <testcase name="Day4_test_SupplierModel_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
-  <testcase name="Day4_test_PurchaseOrderModel_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day4_test_PurchaseOrderItemModel_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
-  <testcase name="Day4_test_CustomerReturnModel_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.004"/>
-  <testcase name="Day4_test_Product_Has_Entity_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
-  <testcase name="Day4_test_Product_Has_Id_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day4_test_Supplier_Has_Entity_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
-  <testcase name="Day4_test_Supplier_Has_Id_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day4_test_PurchaseOrderModel_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day4_test_PurchaseOrderItemModel_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.042"/>
+  <testcase name="Day4_test_CustomerReturnModel_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day4_test_Product_Has_Entity_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.005"/>
+  <testcase name="Day4_test_Product_Has_Id_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day4_test_Supplier_Has_Entity_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.004"/>
+  <testcase name="Day4_test_Supplier_Has_Id_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
   <testcase name="Day4_test_CustomerReturn_Has_Entity_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
-  <testcase name="Day4_test_PurchaseOrder_Has_Entity_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day4_test_PurchaseOrderItem_Has_Entity_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day4_test_PurchaseOrder_Has_Entity_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day4_test_PurchaseOrderItem_Has_Entity_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day5_test_ProductRepo_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day5_test_SupplierRepo_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day5_test_PurchaseOrderRepo_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
-  <testcase name="Day5_test_PurchaseOrderItemRepo_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day5_test_PurchaseOrderRepo_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.004"/>
+  <testcase name="Day5_test_PurchaseOrderItemRepo_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.004"/>
   <testcase name="Day5_test_CustomerReturnRepo_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
-  <testcase name="Day5_test_ProductRepo_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day5_test_ProductRepo_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.004"/>
   <testcase name="Day5_test_SupplierRepo_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
-  <testcase name="Day5_test_CustomerReturnRepo_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
-  <testcase name="Day5_test_PurchaseOrderRepo_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
-  <testcase name="Day5_test_PurchaseOrderItemRepo_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
-  <testcase name="Day6_test_ProductController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.006">
-    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)
-	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:183)
-	at com.examly.springapp.SpringappApplicationTests.Day6_test_ProductController_File_Exists(SpringappApplicationTests.java:310)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-]]></failure>
-  </testcase>
-  <testcase name="Day6_test_SupplierController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.005">
-    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)
-	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:183)
-	at com.examly.springapp.SpringappApplicationTests.Day6_test_SupplierController_File_Exists(SpringappApplicationTests.java:316)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-]]></failure>
-  </testcase>
-  <testcase name="Day6_test_PurchaseOrderController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
-    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)
-	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:183)
-	at com.examly.springapp.SpringappApplicationTests.Day6_test_PurchaseOrderController_File_Exists(SpringappApplicationTests.java:322)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-]]></failure>
-  </testcase>
-  <testcase name="Day6_test_CustomerReturnController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003">
-    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)
-	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:183)
-	at com.examly.springapp.SpringappApplicationTests.Day6_test_CustomerReturnController_File_Exists(SpringappApplicationTests.java:328)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-]]></failure>
-  </testcase>
-  <testcase name="Day6_test_PurchaseOrderItemController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003">
-    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)
-	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:183)
-	at com.examly.springapp.SpringappApplicationTests.Day6_test_PurchaseOrderItemController_File_Exists(SpringappApplicationTests.java:334)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-]]></failure>
-  </testcase>
-  <testcase name="Day6_test_ProductController_Has_RestController_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
-    <failure message="❌ ProductController class not found." type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: ❌ ProductController class not found.
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
-	at com.examly.springapp.SpringappApplicationTests.Day6_test_ProductController_Has_RestController_Annotation(SpringappApplicationTests.java:350)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-]]></failure>
-  </testcase>
-  <testcase name="Day6_test_SupplierController_Has_RestController_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.003">
-    <failure message="❌ SupplierController class not found." type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: ❌ SupplierController class not found.
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
-	at com.examly.springapp.SpringappApplicationTests.Day6_test_SupplierController_Has_RestController_Annotation(SpringappApplicationTests.java:363)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-]]></failure>
-  </testcase>
-  <testcase name="Day6_test_PurchaseOrderController_Has_RestController_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
-    <failure message="❌ PurchaseOrderController class not found." type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: ❌ PurchaseOrderController class not found.
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
-	at com.examly.springapp.SpringappApplicationTests.Day6_test_PurchaseOrderController_Has_RestController_Annotation(SpringappApplicationTests.java:376)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-]]></failure>
-  </testcase>
-  <testcase name="Day6_test_CustomerReturnController_Has_RestController_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.003">
-    <failure message="❌ CustomerReturnController class not found." type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: ❌ CustomerReturnController class not found.
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
-	at com.examly.springapp.SpringappApplicationTests.Day6_test_CustomerReturnController_Has_RestController_Annotation(SpringappApplicationTests.java:389)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-]]></failure>
-  </testcase>
-  <testcase name="Day6_test_PurchaseOrderItemController_Has_RestController_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.003">
-    <failure message="❌ PurchaseOrderItemController class not found." type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: ❌ PurchaseOrderItemController class not found.
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
-	at com.examly.springapp.SpringappApplicationTests.Day6_test_PurchaseOrderItemController_Has_RestController_Annotation(SpringappApplicationTests.java:402)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-]]></failure>
-  </testcase>
-  <testcase name="Day6_test_ProductController_Has_PostMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.003">
-    <failure message="❌ ProductController class not found." type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: ❌ ProductController class not found.
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
-	at com.examly.springapp.SpringappApplicationTests.Day6_test_ProductController_Has_PostMapping(SpringappApplicationTests.java:425)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-]]></failure>
-  </testcase>
-  <testcase name="Day6_test_ProductController_Has_GetMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.003">
-    <failure message="❌ ProductController class not found." type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: ❌ ProductController class not found.
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
-	at com.examly.springapp.SpringappApplicationTests.Day6_test_ProductController_Has_GetMapping(SpringappApplicationTests.java:444)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-]]></failure>
-  </testcase>
-  <testcase name="Day6_test_ProductController_Has_PutMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
-    <failure message="❌ ProductController class not found." type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: ❌ ProductController class not found.
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
-	at com.examly.springapp.SpringappApplicationTests.Day6_test_ProductController_Has_PutMapping(SpringappApplicationTests.java:463)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-]]></failure>
-  </testcase>
-  <testcase name="Day6_test_ProductController_Has_DeleteMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.01">
-    <failure message="❌ ProductController class not found." type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: ❌ ProductController class not found.
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
-	at com.examly.springapp.SpringappApplicationTests.Day6_test_ProductController_Has_DeleteMapping(SpringappApplicationTests.java:482)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-]]></failure>
-  </testcase>
-  <testcase name="Day6_test_SupplierController_Has_PostMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
-    <failure message="❌ SupplierController class not found." type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: ❌ SupplierController class not found.
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
-	at com.examly.springapp.SpringappApplicationTests.Day6_test_SupplierController_Has_PostMapping(SpringappApplicationTests.java:501)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-]]></failure>
-  </testcase>
-  <testcase name="Day6_testCreateProduct_NoBody_StatusBadRequest" classname="com.examly.springapp.SpringappApplicationTests" time="0.071">
-    <failure message="Status expected:&lt;400&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<400> but was:<404>
+  <testcase name="Day5_test_CustomerReturnRepo_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.004"/>
+  <testcase name="Day5_test_PurchaseOrderRepo_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.004"/>
+  <testcase name="Day5_test_PurchaseOrderItemRepo_Has_Repository_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.004"/>
+  <testcase name="Day6_test_ProductController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_SupplierController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_PurchaseOrderController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day6_test_CustomerReturnController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_PurchaseOrderItemController_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_ProductController_Has_RestController_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day6_test_SupplierController_Has_RestController_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_PurchaseOrderController_Has_RestController_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_CustomerReturnController_Has_RestController_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_PurchaseOrderItemController_Has_RestController_Annotation" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_ProductController_Has_PostMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_ProductController_Has_GetMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day6_test_ProductController_Has_PutMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_ProductController_Has_DeleteMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day6_test_SupplierController_Has_PostMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day6_testCreateProduct_NoBody_StatusBadRequest" classname="com.examly.springapp.SpringappApplicationTests" time="0.079">
+    <failure message="Status expected:&lt;400&gt; but was:&lt;200&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<400> but was:<200>
 	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:61)
 	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:128)
 	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$matcher$9(StatusResultMatchers.java:640)
@@ -337,14 +182,15 @@ MockHttpServletRequest:
     Session Attrs = {}
 
 Handler:
-             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
+             Type = com.examly.springapp.controller.ProductController
+           Method = com.examly.springapp.controller.ProductController#create()
 
 Async:
     Async started = false
      Async result = null
 
 Resolved Exception:
-             Type = org.springframework.web.servlet.resource.NoResourceFoundException
+             Type = null
 
 ModelAndView:
         View name = null
@@ -355,9 +201,9 @@ FlashMap:
        Attributes = null
 
 MockHttpServletResponse:
-           Status = 404
-    Error message = No static resource api/products.
-          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
+           Status = 200
+    Error message = null
+          Headers = []
      Content type = null
              Body = 
     Forwarded URL = null
@@ -365,8 +211,8 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day6_testGetAllProducts_StatusNoContent" classname="com.examly.springapp.SpringappApplicationTests" time="0.007">
-    <failure message="Status expected:&lt;204&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<204> but was:<404>
+  <testcase name="Day6_testGetAllProducts_StatusNoContent" classname="com.examly.springapp.SpringappApplicationTests" time="0.006">
+    <failure message="Status expected:&lt;204&gt; but was:&lt;200&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<204> but was:<200>
 	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:61)
 	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:128)
 	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$matcher$9(StatusResultMatchers.java:640)
@@ -386,14 +232,15 @@ MockHttpServletRequest:
     Session Attrs = {}
 
 Handler:
-             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
+             Type = com.examly.springapp.controller.ProductController
+           Method = com.examly.springapp.controller.ProductController#getAll()
 
 Async:
     Async started = false
      Async result = null
 
 Resolved Exception:
-             Type = org.springframework.web.servlet.resource.NoResourceFoundException
+             Type = null
 
 ModelAndView:
         View name = null
@@ -404,9 +251,9 @@ FlashMap:
        Attributes = null
 
 MockHttpServletResponse:
-           Status = 404
-    Error message = No static resource api/products.
-          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
+           Status = 200
+    Error message = null
+          Headers = []
      Content type = null
              Body = 
     Forwarded URL = null
@@ -414,66 +261,12 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day7_test_ProductController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
-    <failure message="❌ ProductController class not found." type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: ❌ ProductController class not found.
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
-	at com.examly.springapp.SpringappApplicationTests.Day7_test_ProductController_Has_RequestMapping(SpringappApplicationTests.java:546)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-]]></failure>
-  </testcase>
-  <testcase name="Day7_test_ProductController_Has_PathVariable" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
-    <failure message="❌ ProductController class not found." type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: ❌ ProductController class not found.
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
-	at com.examly.springapp.SpringappApplicationTests.Day7_test_ProductController_Has_PathVariable(SpringappApplicationTests.java:568)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-]]></failure>
-  </testcase>
-  <testcase name="Day7_test_SupplierController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
-    <failure message="❌ SupplierController class not found." type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: ❌ SupplierController class not found.
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
-	at com.examly.springapp.SpringappApplicationTests.Day7_test_SupplierController_Has_RequestMapping(SpringappApplicationTests.java:581)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-]]></failure>
-  </testcase>
-  <testcase name="Day7_test_SupplierController_Has_PathVariable" classname="com.examly.springapp.SpringappApplicationTests" time="0.005">
-    <failure message="❌ SupplierController class not found." type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: ❌ SupplierController class not found.
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
-	at com.examly.springapp.SpringappApplicationTests.Day7_test_SupplierController_Has_PathVariable(SpringappApplicationTests.java:603)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-]]></failure>
-  </testcase>
-  <testcase name="Day7_test_PurchaseOrderController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
-    <failure message="❌ PurchaseOrderController class not found." type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: ❌ PurchaseOrderController class not found.
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
-	at com.examly.springapp.SpringappApplicationTests.Day7_test_PurchaseOrderController_Has_RequestMapping(SpringappApplicationTests.java:616)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-]]></failure>
-  </testcase>
-  <testcase name="Day7_test_CustomerReturnController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.003">
-    <failure message="❌ CustomerReturnController class not found." type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: ❌ CustomerReturnController class not found.
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
-	at com.examly.springapp.SpringappApplicationTests.Day7_test_CustomerReturnController_Has_RequestMapping(SpringappApplicationTests.java:629)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-]]></failure>
-  </testcase>
+  <testcase name="Day7_test_ProductController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.003"/>
+  <testcase name="Day7_test_ProductController_Has_PathVariable" classname="com.examly.springapp.SpringappApplicationTests" time="0.004"/>
+  <testcase name="Day7_test_SupplierController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day7_test_SupplierController_Has_PathVariable" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day7_test_PurchaseOrderController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
+  <testcase name="Day7_test_CustomerReturnController_Has_RequestMapping" classname="com.examly.springapp.SpringappApplicationTests" time="0.002"/>
   <testcase name="Day8_test_ProductService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003">
     <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
@@ -488,7 +281,7 @@ MockHttpServletResponse:
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ]]></failure>
   </testcase>
-  <testcase name="Day8_test_SupplierService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
+  <testcase name="Day8_test_SupplierService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002">
     <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -502,7 +295,7 @@ MockHttpServletResponse:
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ]]></failure>
   </testcase>
-  <testcase name="Day8_test_CustomerReturnService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
+  <testcase name="Day8_test_CustomerReturnService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003">
     <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -530,7 +323,7 @@ MockHttpServletResponse:
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ]]></failure>
   </testcase>
-  <testcase name="Day8_test_PurchaseOrderItemService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003">
+  <testcase name="Day8_test_PurchaseOrderItemService_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002">
     <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -558,7 +351,7 @@ MockHttpServletResponse:
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ]]></failure>
   </testcase>
-  <testcase name="Day8_test_SupplierServiceImpl_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003">
+  <testcase name="Day8_test_SupplierServiceImpl_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002">
     <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -586,7 +379,7 @@ MockHttpServletResponse:
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ]]></failure>
   </testcase>
-  <testcase name="Day8_test_PurchaseOrderServiceImpl_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002">
+  <testcase name="Day8_test_PurchaseOrderServiceImpl_File_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003">
     <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -614,8 +407,8 @@ MockHttpServletResponse:
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ]]></failure>
   </testcase>
-  <testcase name="Day8_testAddProduct" classname="com.examly.springapp.SpringappApplicationTests" time="0.006">
-    <failure message="Status expected:&lt;201&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<201> but was:<404>
+  <testcase name="Day8_testAddProduct" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
+    <failure message="Status expected:&lt;201&gt; but was:&lt;200&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<201> but was:<200>
 	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:61)
 	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:128)
 	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$matcher$9(StatusResultMatchers.java:640)
@@ -635,14 +428,15 @@ MockHttpServletRequest:
     Session Attrs = {}
 
 Handler:
-             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
+             Type = com.examly.springapp.controller.ProductController
+           Method = com.examly.springapp.controller.ProductController#create()
 
 Async:
     Async started = false
      Async result = null
 
 Resolved Exception:
-             Type = org.springframework.web.servlet.resource.NoResourceFoundException
+             Type = null
 
 ModelAndView:
         View name = null
@@ -653,9 +447,9 @@ FlashMap:
        Attributes = null
 
 MockHttpServletResponse:
-           Status = 404
-    Error message = No static resource api/products.
-          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
+           Status = 200
+    Error message = null
+          Headers = []
      Content type = null
              Body = 
     Forwarded URL = null
@@ -663,16 +457,21 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day9_testGetAllProducts" classname="com.examly.springapp.SpringappApplicationTests" time="0.005">
-    <failure message="Status expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
-	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:61)
-	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:128)
-	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$matcher$9(StatusResultMatchers.java:640)
+  <testcase name="Day9_testGetAllProducts" classname="com.examly.springapp.SpringappApplicationTests" time="0.023">
+    <failure message="No value at JSON path &quot;$[0].productName&quot;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: No value at JSON path "$[0].productName"
+	at org.springframework.test.util.JsonPathExpectationsHelper.evaluateJsonPath(JsonPathExpectationsHelper.java:351)
+	at org.springframework.test.util.JsonPathExpectationsHelper.assertValue(JsonPathExpectationsHelper.java:148)
+	at org.springframework.test.web.servlet.result.JsonPathResultMatchers.lambda$value$2(JsonPathResultMatchers.java:112)
 	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:214)
-	at com.examly.springapp.SpringappApplicationTests.Day9_testGetAllProducts(SpringappApplicationTests.java:719)
+	at com.examly.springapp.SpringappApplicationTests.Day9_testGetAllProducts(SpringappApplicationTests.java:720)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.IllegalArgumentException: json can not be null or empty
+	at com.jayway.jsonpath.internal.Utils.notEmpty(Utils.java:401)
+	at com.jayway.jsonpath.JsonPath.read(JsonPath.java:390)
+	at org.springframework.test.util.JsonPathExpectationsHelper.evaluateJsonPath(JsonPathExpectationsHelper.java:348)
+	... 7 more
 ]]></failure>
     <system-out><![CDATA[
 MockHttpServletRequest:
@@ -684,14 +483,15 @@ MockHttpServletRequest:
     Session Attrs = {}
 
 Handler:
-             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
+             Type = com.examly.springapp.controller.ProductController
+           Method = com.examly.springapp.controller.ProductController#getAll()
 
 Async:
     Async started = false
      Async result = null
 
 Resolved Exception:
-             Type = org.springframework.web.servlet.resource.NoResourceFoundException
+             Type = null
 
 ModelAndView:
         View name = null
@@ -702,9 +502,9 @@ FlashMap:
        Attributes = null
 
 MockHttpServletResponse:
-           Status = 404
-    Error message = No static resource api/products.
-          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
+           Status = 200
+    Error message = null
+          Headers = []
      Content type = null
              Body = 
     Forwarded URL = null
@@ -712,8 +512,8 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day9_testGetProductById" classname="com.examly.springapp.SpringappApplicationTests" time="0.006">
-    <failure message="Status expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
+  <testcase name="Day9_testGetProductById" classname="com.examly.springapp.SpringappApplicationTests" time="0.009">
+    <failure message="Status expected:&lt;200&gt; but was:&lt;405&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<405>
 	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:61)
 	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:128)
 	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$matcher$9(StatusResultMatchers.java:640)
@@ -723,7 +523,8 @@ MockHttpServletResponse:
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ]]></failure>
-    <system-out><![CDATA[
+    <system-out><![CDATA[2025-12-18T04:12:07.764Z  WARN 1206 --- [           main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+
 MockHttpServletRequest:
       HTTP Method = GET
       Request URI = /api/products/1
@@ -733,14 +534,14 @@ MockHttpServletRequest:
     Session Attrs = {}
 
 Handler:
-             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
+             Type = null
 
 Async:
     Async started = false
      Async result = null
 
 Resolved Exception:
-             Type = org.springframework.web.servlet.resource.NoResourceFoundException
+             Type = org.springframework.web.HttpRequestMethodNotSupportedException
 
 ModelAndView:
         View name = null
@@ -751,9 +552,9 @@ FlashMap:
        Attributes = null
 
 MockHttpServletResponse:
-           Status = 404
-    Error message = No static resource api/products/1.
-          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
+           Status = 405
+    Error message = Method 'GET' is not supported.
+          Headers = [Allow:"PUT, DELETE"]
      Content type = null
              Body = 
     Forwarded URL = null
@@ -761,16 +562,21 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day9_testUpdateProduct" classname="com.examly.springapp.SpringappApplicationTests" time="0.007">
-    <failure message="Status expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
-	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:61)
-	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:128)
-	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$matcher$9(StatusResultMatchers.java:640)
+  <testcase name="Day9_testUpdateProduct" classname="com.examly.springapp.SpringappApplicationTests" time="0.015">
+    <failure message="No value at JSON path &quot;$.productName&quot;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: No value at JSON path "$.productName"
+	at org.springframework.test.util.JsonPathExpectationsHelper.evaluateJsonPath(JsonPathExpectationsHelper.java:351)
+	at org.springframework.test.util.JsonPathExpectationsHelper.assertValue(JsonPathExpectationsHelper.java:148)
+	at org.springframework.test.web.servlet.result.JsonPathResultMatchers.lambda$value$2(JsonPathResultMatchers.java:112)
 	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:214)
-	at com.examly.springapp.SpringappApplicationTests.Day9_testUpdateProduct(SpringappApplicationTests.java:740)
+	at com.examly.springapp.SpringappApplicationTests.Day9_testUpdateProduct(SpringappApplicationTests.java:741)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.IllegalArgumentException: json can not be null or empty
+	at com.jayway.jsonpath.internal.Utils.notEmpty(Utils.java:401)
+	at com.jayway.jsonpath.JsonPath.read(JsonPath.java:390)
+	at org.springframework.test.util.JsonPathExpectationsHelper.evaluateJsonPath(JsonPathExpectationsHelper.java:348)
+	... 7 more
 ]]></failure>
     <system-out><![CDATA[
 MockHttpServletRequest:
@@ -782,14 +588,15 @@ MockHttpServletRequest:
     Session Attrs = {}
 
 Handler:
-             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
+             Type = com.examly.springapp.controller.ProductController
+           Method = com.examly.springapp.controller.ProductController#update(Long)
 
 Async:
     Async started = false
      Async result = null
 
 Resolved Exception:
-             Type = org.springframework.web.servlet.resource.NoResourceFoundException
+             Type = null
 
 ModelAndView:
         View name = null
@@ -800,9 +607,9 @@ FlashMap:
        Attributes = null
 
 MockHttpServletResponse:
-           Status = 404
-    Error message = No static resource api/products/1.
-          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
+           Status = 200
+    Error message = null
+          Headers = []
      Content type = null
              Body = 
     Forwarded URL = null
@@ -810,8 +617,8 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day10_testAddSupplier" classname="com.examly.springapp.SpringappApplicationTests" time="0.028">
-    <failure message="Status expected:&lt;201&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<201> but was:<404>
+  <testcase name="Day10_testAddSupplier" classname="com.examly.springapp.SpringappApplicationTests" time="0.005">
+    <failure message="Status expected:&lt;201&gt; but was:&lt;200&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<201> but was:<200>
 	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:61)
 	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:128)
 	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$matcher$9(StatusResultMatchers.java:640)
@@ -831,14 +638,15 @@ MockHttpServletRequest:
     Session Attrs = {}
 
 Handler:
-             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
+             Type = com.examly.springapp.controller.SupplierController
+           Method = com.examly.springapp.controller.SupplierController#create()
 
 Async:
     Async started = false
      Async result = null
 
 Resolved Exception:
-             Type = org.springframework.web.servlet.resource.NoResourceFoundException
+             Type = null
 
 ModelAndView:
         View name = null
@@ -849,9 +657,9 @@ FlashMap:
        Attributes = null
 
 MockHttpServletResponse:
-           Status = 404
-    Error message = No static resource api/suppliers.
-          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
+           Status = 200
+    Error message = null
+          Headers = []
      Content type = null
              Body = 
     Forwarded URL = null
@@ -859,8 +667,8 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day10_testGetAllSuppliers" classname="com.examly.springapp.SpringappApplicationTests" time="0.005">
-    <failure message="Status expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
+  <testcase name="Day10_testGetAllSuppliers" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
+    <failure message="Status expected:&lt;200&gt; but was:&lt;405&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<405>
 	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:61)
 	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:128)
 	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$matcher$9(StatusResultMatchers.java:640)
@@ -870,7 +678,8 @@ MockHttpServletResponse:
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ]]></failure>
-    <system-out><![CDATA[
+    <system-out><![CDATA[2025-12-18T04:12:07.792Z  WARN 1206 --- [           main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+
 MockHttpServletRequest:
       HTTP Method = GET
       Request URI = /api/suppliers
@@ -880,14 +689,14 @@ MockHttpServletRequest:
     Session Attrs = {}
 
 Handler:
-             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
+             Type = null
 
 Async:
     Async started = false
      Async result = null
 
 Resolved Exception:
-             Type = org.springframework.web.servlet.resource.NoResourceFoundException
+             Type = org.springframework.web.HttpRequestMethodNotSupportedException
 
 ModelAndView:
         View name = null
@@ -898,9 +707,9 @@ FlashMap:
        Attributes = null
 
 MockHttpServletResponse:
-           Status = 404
-    Error message = No static resource api/suppliers.
-          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
+           Status = 405
+    Error message = Method 'GET' is not supported.
+          Headers = [Allow:"POST"]
      Content type = null
              Body = 
     Forwarded URL = null
@@ -908,16 +717,21 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day10_testGetSupplierById" classname="com.examly.springapp.SpringappApplicationTests" time="0.005">
-    <failure message="Status expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
-	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:61)
-	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:128)
-	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$matcher$9(StatusResultMatchers.java:640)
+  <testcase name="Day10_testGetSupplierById" classname="com.examly.springapp.SpringappApplicationTests" time="0.006">
+    <failure message="No value at JSON path &quot;$.supplierId&quot;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: No value at JSON path "$.supplierId"
+	at org.springframework.test.util.JsonPathExpectationsHelper.evaluateJsonPath(JsonPathExpectationsHelper.java:351)
+	at org.springframework.test.util.JsonPathExpectationsHelper.assertValue(JsonPathExpectationsHelper.java:148)
+	at org.springframework.test.web.servlet.result.JsonPathResultMatchers.lambda$value$2(JsonPathResultMatchers.java:112)
 	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:214)
-	at com.examly.springapp.SpringappApplicationTests.Day10_testGetSupplierById(SpringappApplicationTests.java:775)
+	at com.examly.springapp.SpringappApplicationTests.Day10_testGetSupplierById(SpringappApplicationTests.java:776)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: java.lang.IllegalArgumentException: json can not be null or empty
+	at com.jayway.jsonpath.internal.Utils.notEmpty(Utils.java:401)
+	at com.jayway.jsonpath.JsonPath.read(JsonPath.java:390)
+	at org.springframework.test.util.JsonPathExpectationsHelper.evaluateJsonPath(JsonPathExpectationsHelper.java:348)
+	... 7 more
 ]]></failure>
     <system-out><![CDATA[
 MockHttpServletRequest:
@@ -929,14 +743,15 @@ MockHttpServletRequest:
     Session Attrs = {}
 
 Handler:
-             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
+             Type = com.examly.springapp.controller.SupplierController
+           Method = com.examly.springapp.controller.SupplierController#getById(Long)
 
 Async:
     Async started = false
      Async result = null
 
 Resolved Exception:
-             Type = org.springframework.web.servlet.resource.NoResourceFoundException
+             Type = null
 
 ModelAndView:
         View name = null
@@ -947,9 +762,9 @@ FlashMap:
        Attributes = null
 
 MockHttpServletResponse:
-           Status = 404
-    Error message = No static resource api/suppliers/1.
-          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
+           Status = 200
+    Error message = null
+          Headers = []
      Content type = null
              Body = 
     Forwarded URL = null
@@ -958,7 +773,7 @@ MockHttpServletResponse:
 ]]></system-out>
   </testcase>
   <testcase name="Day10_testUpdateSupplier" classname="com.examly.springapp.SpringappApplicationTests" time="0.005">
-    <failure message="Status expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
+    <failure message="Status expected:&lt;200&gt; but was:&lt;405&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<405>
 	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:61)
 	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:128)
 	at org.springframework.test.web.servlet.result.StatusResultMatchers.lambda$matcher$9(StatusResultMatchers.java:640)
@@ -968,7 +783,8 @@ MockHttpServletResponse:
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ]]></failure>
-    <system-out><![CDATA[
+    <system-out><![CDATA[2025-12-18T04:12:07.804Z  WARN 1206 --- [           main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' is not supported]
+
 MockHttpServletRequest:
       HTTP Method = PUT
       Request URI = /api/suppliers/1
@@ -978,14 +794,14 @@ MockHttpServletRequest:
     Session Attrs = {}
 
 Handler:
-             Type = org.springframework.web.servlet.resource.ResourceHttpRequestHandler
+             Type = null
 
 Async:
     Async started = false
      Async result = null
 
 Resolved Exception:
-             Type = org.springframework.web.servlet.resource.NoResourceFoundException
+             Type = org.springframework.web.HttpRequestMethodNotSupportedException
 
 ModelAndView:
         View name = null
@@ -996,9 +812,9 @@ FlashMap:
        Attributes = null
 
 MockHttpServletResponse:
-           Status = 404
-    Error message = No static resource api/suppliers/1.
-          Headers = [Vary:"Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers"]
+           Status = 405
+    Error message = Method 'PUT' is not supported.
+          Headers = [Allow:"GET"]
      Content type = null
              Body = 
     Forwarded URL = null
@@ -1006,7 +822,7 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day11_testAddPurchaseOrder" classname="com.examly.springapp.SpringappApplicationTests" time="0.005">
+  <testcase name="Day11_testAddPurchaseOrder" classname="com.examly.springapp.SpringappApplicationTests" time="0.009">
     <failure message="Status expected:&lt;201&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<201> but was:<404>
 	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:61)
 	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:128)
@@ -1055,7 +871,7 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day11_testGetAllPurchaseOrders" classname="com.examly.springapp.SpringappApplicationTests" time="0.005">
+  <testcase name="Day11_testGetAllPurchaseOrders" classname="com.examly.springapp.SpringappApplicationTests" time="0.006">
     <failure message="Status expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
 	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:61)
 	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:128)
@@ -1104,7 +920,7 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day11_testGetPurchaseOrderById" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
+  <testcase name="Day11_testGetPurchaseOrderById" classname="com.examly.springapp.SpringappApplicationTests" time="0.009">
     <failure message="Status expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
 	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:61)
 	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:128)
@@ -1153,7 +969,7 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day11_testUpdatePurchaseOrder" classname="com.examly.springapp.SpringappApplicationTests" time="0.006">
+  <testcase name="Day11_testUpdatePurchaseOrder" classname="com.examly.springapp.SpringappApplicationTests" time="0.005">
     <failure message="Status expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
 	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:61)
 	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:128)
@@ -1202,7 +1018,7 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day12_testAddCustomerReturn" classname="com.examly.springapp.SpringappApplicationTests" time="0.005">
+  <testcase name="Day12_testAddCustomerReturn" classname="com.examly.springapp.SpringappApplicationTests" time="0.006">
     <failure message="Status expected:&lt;201&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<201> but was:<404>
 	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:61)
 	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:128)
@@ -1349,7 +1165,7 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day13_testAddPurchaseOrderItem" classname="com.examly.springapp.SpringappApplicationTests" time="0.004">
+  <testcase name="Day13_testAddPurchaseOrderItem" classname="com.examly.springapp.SpringappApplicationTests" time="0.005">
     <failure message="Status expected:&lt;201&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<201> but was:<404>
 	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:61)
 	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:128)
@@ -1398,7 +1214,7 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day13_testGetPurchaseOrderItemsByOrderId" classname="com.examly.springapp.SpringappApplicationTests" time="0.031">
+  <testcase name="Day13_testGetPurchaseOrderItemsByOrderId" classname="com.examly.springapp.SpringappApplicationTests" time="0.006">
     <failure message="Status expected:&lt;200&gt; but was:&lt;404&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Status expected:<200> but was:<404>
 	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:61)
 	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:128)
@@ -1447,7 +1263,7 @@ MockHttpServletResponse:
           Cookies = []
 ]]></system-out>
   </testcase>
-  <testcase name="Day14_test_Exception_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.003">
+  <testcase name="Day14_test_Exception_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002">
     <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -1475,7 +1291,7 @@ MockHttpServletResponse:
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ]]></failure>
   </testcase>
-  <testcase name="Day14test_configuartion_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.001">
+  <testcase name="Day14test_configuartion_Directory_Exists" classname="com.examly.springapp.SpringappApplicationTests" time="0.002">
     <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)

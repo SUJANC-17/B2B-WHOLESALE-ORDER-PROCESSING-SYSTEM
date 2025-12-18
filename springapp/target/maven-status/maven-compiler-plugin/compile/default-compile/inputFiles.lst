@@ -1,4 +1,9 @@
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/SpringappApplication.java
+/home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/controller/CustomerReturnController.java
+/home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/controller/ProductController.java
+/home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/controller/PurchaseOrderController.java
+/home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/controller/PurchaseOrderItemController.java
+/home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/controller/SupplierController.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/model/CustomerReturn.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/model/Product.java
 /home/coder/project/workspace/springapp/src/main/java/com/examly/springapp/model/PurchaseOrder.java

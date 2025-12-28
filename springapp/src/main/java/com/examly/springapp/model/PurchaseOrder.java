@@ -5,7 +5,11 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToMany;
+import jakarta.persistence.FetchType;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Entity
 public class PurchaseOrder {
@@ -15,8 +19,11 @@ public class PurchaseOrder {
     private String orderNumber;
     private LocalDateTime orderDate;
     private String status;
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.EAGER)
     private Supplier supplier;
+    @OneToMany(mappedBy = "purchaseOrder", fetch = FetchType.LAZY)
+    @JsonManagedReference
+    private List<PurchaseOrderItem> purchaseOrderItems;
 
     public Long getPurchaseOrderId() {
         return purchaseOrderId;
@@ -56,5 +63,13 @@ public class PurchaseOrder {
 
     public void setSupplier(Supplier supplier) {
         this.supplier = supplier;
+    }
+
+    public List<PurchaseOrderItem> getPurchaseOrderItems() {
+        return purchaseOrderItems;
+    }
+
+    public void setPurchaseOrderItems(List<PurchaseOrderItem> purchaseOrderItems) {
+        this.purchaseOrderItems = purchaseOrderItems;
     }
 }

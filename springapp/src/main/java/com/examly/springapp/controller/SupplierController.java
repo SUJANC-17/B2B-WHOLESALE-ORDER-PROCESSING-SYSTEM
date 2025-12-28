@@ -10,12 +10,13 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/suppliers")
+@CrossOrigin(origins = "*")
 public class SupplierController {
     
     @Autowired
     private SupplierRepo supplierRepo;
     
-    @PostMapping
+    @PostMapping(consumes = "application/json", produces = "application/json")
     public ResponseEntity<Supplier> create(@RequestBody Supplier supplier) {
         return ResponseEntity.status(HttpStatus.CREATED).body(supplierRepo.save(supplier));
     }

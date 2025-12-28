@@ -4,6 +4,9 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+import java.util.List;
 
 @Entity
 public class Product {
@@ -14,6 +17,11 @@ public class Product {
     private String description;
     private Double price;
     private Integer stockQuantity;
+    @OneToMany(mappedBy = "product")
+    @JsonManagedReference("product-items")
+    private List<PurchaseOrderItem> purchaseOrderItems;
+    @OneToMany(mappedBy = "product")
+    private List<CustomerReturn> customerReturns;
 
     public Long getProductId() {
         return productId;
@@ -53,5 +61,21 @@ public class Product {
 
     public void setStockQuantity(Integer stockQuantity) {
         this.stockQuantity = stockQuantity;
+    }
+
+    public List<PurchaseOrderItem> getPurchaseOrderItems() {
+        return purchaseOrderItems;
+    }
+
+    public void setPurchaseOrderItems(List<PurchaseOrderItem> purchaseOrderItems) {
+        this.purchaseOrderItems = purchaseOrderItems;
+    }
+
+    public List<CustomerReturn> getCustomerReturns() {
+        return customerReturns;
+    }
+
+    public void setCustomerReturns(List<CustomerReturn> customerReturns) {
+        this.customerReturns = customerReturns;
     }
 }

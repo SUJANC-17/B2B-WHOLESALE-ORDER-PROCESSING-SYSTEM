@@ -5,7 +5,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import com.examly.springapp.model.Supplier;
-import com.examly.springapp.repository.SupplierRepo;
+import com.examly.springapp.service.SupplierService;
 import java.util.List;
 
 @RestController
@@ -14,41 +14,41 @@ import java.util.List;
 public class SupplierController {
     
     @Autowired
-    private SupplierRepo supplierRepo;
+    private SupplierService supplierService;
     
     @PostMapping(consumes = "application/json", produces = "application/json")
     public ResponseEntity<Supplier> create(@RequestBody Supplier supplier) {
-        return ResponseEntity.status(HttpStatus.CREATED).body(supplierRepo.save(supplier));
+        return ResponseEntity.status(HttpStatus.CREATED).body(supplierService.save(supplier));
     }
     
     @GetMapping
     public List<Supplier> getAll() {
-        return supplierRepo.findAll();
+        return supplierService.findAll();
     }
     
     @GetMapping("/{id}")
     public ResponseEntity<Supplier> getById(@PathVariable Long id) {
-        return supplierRepo.findById(id)
-                .map(ResponseEntity::ok)
-                .orElse(ResponseEntity.notFound().build());
+        return ResponseEntity.ok(supplierService.findById(id));
     }
     
     @PutMapping("/{id}")
     public ResponseEntity<Supplier> update(@PathVariable Long id, @RequestBody Supplier supplier) {
-        return supplierRepo.findById(id)
-                .map(existing -> {
-                    supplier.setSupplierId(id);
-                    return ResponseEntity.ok(supplierRepo.save(supplier));
-                })
-                .orElse(ResponseEntity.notFound().build());
+        return ResponseEntity.ok(supplierService.update(id, supplier));
     }
     
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> delete(@PathVariable Long id) {
-        if (supplierRepo.existsById(id)) {
-            supplierRepo.deleteById(id);
-            return ResponseEntity.ok().build();
-        }
-        return ResponseEntity.notFound().build();
+        supplierService.deleteById(id);
+        return ResponseEntity.ok().build();
+    }
+    
+    @PatchMapping("/{id}")
+    public ResponseEntity<Supplier> patch(@PathVariable Long id, @RequestBody Supplier supplier) {
+        Supplier existing = supplierService.findById(id);
+        if (supplier.getSupplierName() != null) existing.setSupplierName(supplier.getSupplierName());
+        if (supplier.getContactNumber() != null) existing.setContactNumber(supplier.getContactNumber());
+        if (supplier.getEmail() != null) existing.setEmail(supplier.getEmail());
+        if (supplier.getAddress() != null) existing.setAddress(supplier.getAddress());
+        return ResponseEntity.ok(supplierService.save(existing));
     }
 }

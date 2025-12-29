@@ -7,6 +7,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToOne;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
 public class CustomerReturn {
@@ -18,6 +19,7 @@ public class CustomerReturn {
     private Integer quantity;
     private String reason;
     @ManyToOne
+    @JsonIgnore
     private Product product;
 
     public Long getCustomerReturnId() {

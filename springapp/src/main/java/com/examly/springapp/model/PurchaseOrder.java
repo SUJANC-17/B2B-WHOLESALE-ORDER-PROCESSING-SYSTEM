@@ -7,7 +7,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.FetchType;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.time.LocalDateTime;
 import java.util.List;
 
@@ -22,7 +22,7 @@ public class PurchaseOrder {
     @ManyToOne(fetch = FetchType.EAGER)
     private Supplier supplier;
     @OneToMany(mappedBy = "purchaseOrder", fetch = FetchType.LAZY)
-    @JsonManagedReference
+    @JsonIgnore
     private List<PurchaseOrderItem> purchaseOrderItems;
 
     public Long getPurchaseOrderId() {

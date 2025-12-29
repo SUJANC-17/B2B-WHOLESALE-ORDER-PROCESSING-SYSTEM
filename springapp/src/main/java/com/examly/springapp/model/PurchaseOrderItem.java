@@ -5,7 +5,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToOne;
-import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
 public class PurchaseOrderItem {
@@ -15,10 +15,10 @@ public class PurchaseOrderItem {
     private Integer quantity;
     private Double unitPrice;
     @ManyToOne
-    @JsonBackReference
+    @JsonIgnore
     private PurchaseOrder purchaseOrder;
     @ManyToOne
-    @JsonBackReference("product-items")
+    @JsonIgnore
     private Product product;
 
     public Long getPurchaseOrderItemId() {

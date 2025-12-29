@@ -34,4 +34,14 @@ public class PurchaseOrderItemController {
     public void deletePurchaseOrderItem(@PathVariable Long id) {
         purchaseOrderItemService.deleteById(id);
     }
+    
+    @PatchMapping("/{id}")
+    public PurchaseOrderItem patchPurchaseOrderItem(@PathVariable Long id, @RequestBody PurchaseOrderItem purchaseOrderItem) {
+        PurchaseOrderItem existing = purchaseOrderItemService.findById(id);
+        if (purchaseOrderItem.getQuantity() != null) existing.setQuantity(purchaseOrderItem.getQuantity());
+        if (purchaseOrderItem.getUnitPrice() != null) existing.setUnitPrice(purchaseOrderItem.getUnitPrice());
+        if (purchaseOrderItem.getPurchaseOrder() != null) existing.setPurchaseOrder(purchaseOrderItem.getPurchaseOrder());
+        if (purchaseOrderItem.getProduct() != null) existing.setProduct(purchaseOrderItem.getProduct());
+        return purchaseOrderItemService.save(existing);
+    }
 }
